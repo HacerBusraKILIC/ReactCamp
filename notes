@@ -1,0 +1,3 @@
+- javascript single page application(SPA) dır. Src klasörüne odaklanırsın app dosyası üzerinden import ederek geliştirmeye devam edilir.
+- Return içi html görünümlü js dir. React buna jsx der. 
+- index.js webpack ile çalımaya alınır.
