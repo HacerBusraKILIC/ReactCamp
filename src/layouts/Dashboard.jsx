@@ -7,10 +7,12 @@ import ProductList from "../pages/ProductList";
 import { Route } from "react-router-dom";
 import ProductDetail from "./../pages/ProductDetail";
 import CardDetail from "./../pages/CardDetail";
+import { ToastContainer } from "react-toastify";
 
 export default function Dashboard() {
   return (
     <div>
+      <ToastContainer position="bottom-right" />
       <Grid>
         <Grid.Column width={4}>
           <Categories />
